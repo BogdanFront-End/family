@@ -371,7 +371,7 @@ html {
 
 .products-text {
     display: flex;
-    justify-content: space-between;
+    gap: 374px;
     align-items: start;
 }
 
@@ -2050,12 +2050,20 @@ input:focus {
         font-size: 16px;
         line-height: 20px;
     }
+    .slider-container{
+        margin-left: 93px;
+        width: 100%;
+    }
 }
 
 /* ===== MOBILE STYLES (max-width: 320px) ===== */
 @media (max-width: 320px) {
     .container {
         width: 86.5625%;
+    }
+    .slider-container{
+        margin-left: 22px;
+        width: 100%;
     }
     .main{
         height: 490px;
